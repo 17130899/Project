@@ -1,2 +1,5 @@
 language: java 
-script: mvn test -B
+jdk:
+  - oraclejdk9
+script: 
+  - mvn test -B
